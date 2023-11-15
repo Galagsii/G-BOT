@@ -87,10 +87,10 @@ module.exports = alpha = async (alpha, m, chatUpdate, store, antilink, antiwame,
         const args = body.trim().split(/ +/).slice(1)
         const pushname = m.pushName || "No Name"
         const botNumber = await alpha.decodeJid(alpha.user.id)
-        const tanggal = moment().tz("Asia/Makassar").format("dddd, ll")
-        const jam = moment(Date.now()).tz('Asia/Makassar').locale('id').format('HH:mm:ss z')
-        const salam = moment(Date.now()).tz("Asia/Makassar").locale('id').format('a')
-        const isCreator = ["62887435047326@s.whatsapp.net", botNumber, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
+        const tanggal = moment().tz("Asia/Madiun").format("dddd, ll")
+        const jam = moment(Date.now()).tz('Asia/Madiun').locale('id').format('HH:mm:ss z')
+        const salam = moment(Date.now()).tz("Asia/Madiun").locale('id').format('a')
+        const isCreator = ["6285790717751@s.whatsapp.net", botNumber, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
         const text = q = args.join(" ")
         const quoted = m.quoted ? m.quoted : m
         const from = m.chat
@@ -663,7 +663,7 @@ ${isSurender ? '' : ``}`.trim()
                     },
                     type: 1
                 }]
-                if (size > 50000) { //batas download 50mb, tamabahin jika kurang (misal 100mb = 100000)
+                if (size > 100000) { //batas download 50mb, tamabahin jika kurang (misal 100mb = 100000)
                     let key = "「 *YOUTUBE AUDIO* 」\n\n"
                     key += `• Id: ${id}\n`
                     key += `• Title: ${title}\n`
