@@ -49,8 +49,9 @@ global.help = {
 menu(pushname, salam, mundur, upload, download, totalGb, usedGb, freeGb, ownerName, botName, jam, tanggal, runtime, prefix){
   return `${salam.slice(0,1).toUpperCase() + salam.slice(1)} ${pushname}
 
-*HITUNG MUNDUR IDUL FITRI 🌜*
- ${mundur}
+*G-BOT*
+sorry if there are many shortcomings
+because the owner is still learning.
 
 ╭✄┈┈┈⟬ *STATISTIC* ⟭
 ┆❐ Upload : ${upload}
@@ -82,7 +83,6 @@ menu(pushname, salam, mundur, upload, download, totalGb, usedGb, freeGb, ownerNa
 ┆❐ ${prefix}tiktokaudio
 ┆❐ ${prefix}tiktokvn
 ╰──────────◇
-
 
 ╭✄┈┈┈⟬ *GAMES* ⟭
 ┆❐ ${prefix}tebakgambar
