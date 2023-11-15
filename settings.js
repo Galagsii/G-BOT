@@ -49,10 +49,10 @@ global.help = {
 menu(pushname, salam, mundur, upload, download, totalGb, usedGb, freeGb, ownerName, botName, jam, tanggal, runtime, prefix){
   return `${salam.slice(0,1).toUpperCase() + salam.slice(1)} ${pushname}
 
-*G-BOT*
-sorry if there are many shortcomings
+===============*G-BOT*===============
+sorry if there are many shortcomings,
 because the owner is still learning.
-
+=====================================
 ╭✄┈┈┈⟬ *STATISTIC* ⟭
 ┆❐ Upload : ${upload}
 ┆❐ Downloads : ${download}
@@ -63,7 +63,7 @@ because the owner is still learning.
 ╭✄┈┈┈⟬ *INFO-BOT* ⟭
 ┆❐ Creator : ${ownerName}
 ┆❐ Bot Name : ${botName}
-┆❐ Time : ${jam}
+┆❐ Time : ${jam}WIB
 ┆❐ Date : ${tanggal}
 ┆❐ Runtime : ${runtime}
 ╰──────────◇
